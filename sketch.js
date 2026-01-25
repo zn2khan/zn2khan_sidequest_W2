@@ -1,7 +1,7 @@
 // Y-position of the floor (ground level)
 let floorY3;
 
-let backgroundColor; 
+let backgroundColor = [100,150,250]; 
 
 // Player character (soft, animated blob)
 let blob3 = {
@@ -44,7 +44,7 @@ let platforms = [];
 
 function setup() {
   createCanvas(640, 360);
-  setInterval(backgroundcolor, 1000);
+  setInterval(backgroundcolor, 300);
 
   // Define the floor height
   floorY3 = height - 36;
@@ -74,7 +74,7 @@ function draw() {
   background(backgroundColor[0],backgroundColor[1],backgroundColor[2]);
 
   // --- Draw all platforms ---
-  fill(200);
+  fill(50);
   for (const p of platforms) {
     rect(p.x, p.y, p.w, p.h);
   }
@@ -162,7 +162,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill('black');
+  fill(20);
   beginShape();
 
   for (let i = 0; i < b.points; i++) {

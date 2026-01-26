@@ -17,11 +17,7 @@ Draws blob and background to represent the emotion anxiety. Increased wobble & w
 ---
 
 ## Interaction Instructions
-Describe how to use or play your project.
-- How does the user start?
-- What controls or keys do they use?
-- Any important visual or audio feedback to watch for?
-
+The user can move around using the arrow keys/space or WAD to move around. 
 ---
 
 ## Assets

@@ -1,11 +1,10 @@
 // Y-position of the floor (ground level)
 let floorY3;
 
-let backgroundColor = [100,150,250]; 
+let backgroundColor = [100, 150, 250];
 
 // Player character (soft, animated blob)
 let blob3 = {
-
   // Position (centre of the blob)
   x: 80,
   y: 0,
@@ -66,12 +65,12 @@ function setup() {
   blob3.y = floorY3 - blob3.r - 1;
 }
 
-function backgroundcolor(){
-  backgroundColor = [random(0,255), random(0,255), random(0,255)];
+function backgroundcolor() {
+  backgroundColor = [random(0, 255), random(0, 255), random(0, 255)];
 }
 
 function draw() {
-  background(backgroundColor[0],backgroundColor[1],backgroundColor[2]);
+  background(backgroundColor[0], backgroundColor[1], backgroundColor[2]);
 
   // --- Draw all platforms ---
   fill(50);
@@ -172,7 +171,7 @@ function drawBlobCircle(b) {
     const n = noise(
       cos(a) * b.wobbleFreq + 100,
       sin(a) * b.wobbleFreq + 100,
-      b.t,
+      b.t
     );
 
     const r = b.r + map(n, 0, 1, -b.wobble, b.wobble);

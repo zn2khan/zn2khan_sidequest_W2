@@ -1,28 +1,26 @@
 ## Project Title
 
-GBDA302 Week 2 Example 3: Platforms (AABB Collisions)
+GBDA302 Week 2 Side Quest 
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
+Zaina Khan zn2khan 21069492
 
 ---
 
 ## Description
 
-Adds several rectangular platforms. The blob is drawn as a noisy circle but collides using a simple axis-aligned bounding box (AABB). X and Y are resolved separately to keep behaviour predictable and teachable.
+Draws blob and background to represent the emotion anxiety. Increased wobble & wobble frequency for shaper edges & faster movement. Background color updates every 300ms to represent chaotic environment. 
 
 ---
 
-## Learning Goals
-
-Learning Goals:
-
-- Convert a circular sprite to an AABB for collision
-- Implement overlap test and push-out resolution
-- Manage grounded state only when landing on top faces
+## Interaction Instructions
+Describe how to use or play your project.
+- How does the user start?
+- What controls or keys do they use?
+- Any important visual or audio feedback to watch for?
 
 ---
 
@@ -34,6 +32,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+No GenAI was used to alter this code for this project. 
 
 ---

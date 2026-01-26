@@ -17,7 +17,8 @@ Draws blob and background to represent the emotion anxiety. Increased wobble & w
 ---
 
 ## Interaction Instructions
-The user can move around using the arrow keys/space or WAD to move around. 
+The user can move around using the arrow keys/space or WAD to move around.
+
 ---
 
 ## Assets
